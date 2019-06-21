@@ -1,0 +1,42 @@
+<div class="row background">
+  <div class="offset-sm-4 col-sm-4">
+    <div class="card text-blank">
+      <div class="card-body">
+        <div class="card-title text-center">
+          <h5>Login using your email</h5>
+        </div>
+        <div class="card-text">
+            <!-- (ngSubmit)="onSubmit(myForm)" -->
+          <form >
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Enter your email" name="email">
+            </div>
+            <!-- <div class="alert alert-danger">
+              Enter a valid email.
+            </div> -->
+
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Enter your password" name="password">
+
+            </div>
+            <!-- <div class="alert alert-danger">
+              The password is incorrect.
+
+            </div> -->
+            <div class="text-center">
+            <a routerLink="signup" style="color: beige">Sign up</a>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-block btn-warning round" (click)="onSubmit()">Submit</button>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
